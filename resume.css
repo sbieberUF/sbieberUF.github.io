@@ -1,0 +1,236 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+body{
+	background-image:url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+  place-items: center;
+  }
+.container{
+  width: 30em;
+	margin: 4em;
+}
+
+hr {
+  display:flex;
+  margin-top: 0.05rem;
+  margin-bottom: 0.05rem;
+  border-top-color: blue;
+  border-bottom-color: orange;
+  border-right-color: orange;
+  border-left-color: blue;
+}
+
+h1 {
+  background-color: white;
+  position: fixed;
+  width: 1000vh;
+  margin-left: -400vh;
+  margin-top: -65px;
+  height: 65px;
+}
+h2 {
+  position: fixed;
+	font-size: 1.3em;
+  color: blue;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: normal;
+  white-space: nowrap;
+  margin-left: -374px;
+  margin-top: -41.5px;
+}
+
+h4 {
+  position: fixed;
+	font-size: 1.3em;
+  color: black;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: bolder;
+  white-space: nowrap;
+  margin-left: -343px;
+  margin-top: -41px;
+}
+
+h5 {
+  position: fixed;
+	font-size: 1.3em;
+  color: orange;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: normal;
+  white-space: nowrap;
+  margin-left: -364px;
+  margin-top: -41.5px;
+}
+
+h6 {
+  position: fixed;
+	font-size: 0.8em;
+  color: black;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: lighter;
+  white-space: nowrap;
+  margin-left: -212px;
+  margin-top: -35.5px;
+}
+
+.social__links {
+  position: absolute;
+  right: 45vh;
+  background-color: white;
+  width: 70vh;
+  height: 70vh;
+  margin-top: 12vh;
+  padding-right: 139.8vh;
+  box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social__links ul li{
+    position: relative;
+    left: 54vh;
+    bottom: 9vh;
+    margin: 11.4vh 0;
+    padding: 3vh 17vh;
+    background: rgb(209, 192, 168, 0.3);
+    backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    transform-style: preserve-3d;
+}
+.js-tilt-glare{
+    border-radius: 50%;
+}
+.social__links ul li a{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  color: #453f3d;
+  font-size: 0.5vh;
+  left: 1.7vh;
+  top: 1.8vh;
+  line-height: 2.8vh;
+  font-size: 2.5vh;
+  white-space: nowrap;
+}
+
+.social__links ul li a p{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  color: #453f3d;
+  font-size: 0.5vh;
+  left: 1.9vh;
+  top: 1.8vh;
+  line-height: 2.8vh;
+  font-size: 2.5vh;
+  white-space: nowrap;
+}
+
+.education h3 {
+  position: absolute;
+  color: darkblue;
+  text-shadow: .5px .5px 2px orange ;
+  bottom: 60.1vh;
+  left: 50vh;
+  transform-style: preserve-3d;
+  display: block;
+}
+
+.education p {
+  position: absolute;
+  color: black;
+  bottom: 50vh;
+  left: 50vh;
+  white-space: pre-wrap;
+  font-size: 2vh;
+  border-width:3px;
+  border-style:inset;
+  border-color:#928572;
+  box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.involvement h3 {
+  position: absolute;
+  color: darkblue;
+  text-shadow: .5px .5px 2px orange ;
+  bottom: 32.3vh;
+  left: 47vh;
+}
+
+.involvement p {
+  position: absolute;
+  color: black;
+  bottom: 22vh;
+  left: 47vh;
+  white-space: pre-wrap;
+  font-size: 2vh;
+  border-width:3px;
+  border-style:inset;
+  border-color:#928572;
+  box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.skillset h3 {
+  position: absolute;
+  color: darkblue;
+  text-shadow: .5px .5px 2px orange ;
+  bottom: 32.3vh;
+  left: 132.5vh;
+}
+
+.skillset p {
+  position: absolute;
+  color: black;
+  bottom: 29vh;
+  left: 132.5vh;
+  white-space: pre-wrap;
+  font-size: 2vh;
+  border-width:3px;
+  border-style:inset;
+  border-color:#928572;
+  box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.workexperience h3 {
+  position: absolute;
+  color: darkblue;
+  text-shadow: .5px .5px 2px orange ;
+  bottom: 60vh;
+  left: 102vh;
+}
+
+.workexperience p {
+  position:absolute;
+  color: black;
+  bottom: 52vh;
+  left: 102vh;
+  white-space: pre-wrap;
+  font-size: 2vh;
+  border-width:3px;
+  border-style:inset;
+  border-color:#928572;
+  box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+
